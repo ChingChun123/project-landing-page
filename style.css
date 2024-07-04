@@ -1,0 +1,188 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    box-sizing: border-box
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 250px;
+    background-color: #1F2937;
+}
+
+.logo{
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    gap:20px;
+    color: #E5E7EB;
+}
+
+.section-hero{
+    height:40vh;
+    background-color: #1F2937;
+    display: flex;
+    
+}
+
+.hero-left{
+    padding: 50px ;
+    padding-left: 250px;
+    width: 480px;
+    
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-text{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-text-2{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.small-text{
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px 27px;
+    border:none;
+    color: white;
+}
+
+.hero-right{
+    padding: 50px ;
+    padding-right: 250px;
+    width: 480px;
+}
+
+.hero-image{
+    width: 430px;
+    height: 25vh;
+    background-color: gray;
+}
+
+.section-info{
+    height:40vh;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.info{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.four-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top:40px;    
+}
+
+.photo-description{
+    width:150px;   
+}
+
+.photo{
+    width:150px;
+    height:150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.section-quote{
+    height:40vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.quote-container{
+    width:900px;
+    height:30vh;   
+    padding-top:60px   
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937;
+}
+
+.author{
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    flex-shrink:0
+}
+
+.section-signup{
+    height:30vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-rectangle{
+  
+    width:60%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.inception{
+    display: flex;
+    gap:100px;
+}
+
+.text{
+    color: white
+}
+
+.sign-up-blue{
+    flex-grow: 0;
+    align-self: center;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding:3px 10px;
+}
+
+.end{
+    height:10vh;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.copyright{
+    color:white;
+}
